@@ -1,0 +1,90 @@
+.crd {
+  background: #212121;
+  padding: 22px;
+  text-align: start;
+  border-radius: 6px;
+  border: 1px solid #353535;
+  height: 100%;
+  overflow: hidden;
+}
+.h-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+.s-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ff6c00;
+}
+
+.mk-graph-bg {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+}
+.ant-table-thead .ant-table-cell {
+  background-color: rgb(247 247 247) !important;
+  border-bottom: 0 !important;
+  padding: 20px !important;
+}
+.ant-table-thead th {
+  font-size: 14px;
+}
+.ant-table-tbody td {
+  font-size: 13px;
+
+  padding: 20px !important;
+}
+.ant-table-container table > thead > tr:first-child > *:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+.ant-table-container table > thead > tr:first-child > *:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ff6a2f;
+}
+.ant-tabs .ant-tabs-ink-bar {
+  background: #ff6a2f;
+}
+.ant-tabs-nav::before {
+  border-bottom: 1px solid #212121 !important;
+}
+
+// -----table-----
+.custom-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate !important;
+}
+
+.custom-table th,
+.custom-table td {
+  border-bottom: 1px solid #212121;
+  padding: 15px;
+  background: #323232;
+  text-align: center;
+  color: white;
+}
+
+.custom-table th {
+  background-color: #f16a2f;
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
+}
+.br-1 {
+  border-radius: 7px 0px 0px 0px;
+}
+.br-2 {
+  border-radius: 0px 7px 0px 0px;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-tabs .ant-tabs-tab {
+  color: white;
+}
+.h-auto {
+  height: auto !important;
+}
